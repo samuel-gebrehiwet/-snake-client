@@ -7,9 +7,8 @@ Welcome to Snake Client, a multiplayer game client that allows you to control a 
 - Node.js installed on your machine
 - Basic understanding of JavaScript
 
-## Getting Started  
-  
-  
+## Getting Started
+
 1. **Clone the Repository:** Start by cloning the Snake Client repository to your local machine.
 
    ```bash
