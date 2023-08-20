@@ -12,9 +12,11 @@ const connect = function () {
 
   // Event listener for incoming data
   conn.on("connect", () => {
-    console.log("successfully connected to game server:");
-    conn.write("Name: YOUR_INITIALS")
+    console.log("Successfully connected to game server");
+    conn.write("Name: YOUR_INITIALS"); // Replace YOUR_INITIALS with your initials
+    conn.write("Move: up"); // Send the Move: up command
   });
+  
 
   return conn;
 };
